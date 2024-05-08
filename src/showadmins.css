@@ -1,0 +1,9 @@
+.showadmin-body {
+  height: 100vh;
+}
+.admins-table {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

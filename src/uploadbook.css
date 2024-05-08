@@ -1,0 +1,53 @@
+.up-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.up-registration-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.up-form-row {
+  margin-bottom: 10px;
+}
+
+.up-input-field {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.up-input-label {
+  display: flex;
+  /* display: block; */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+.btn-ddd {
+  margin-top: 17px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.btn-ddd {
+  background-color: #5d688d; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}

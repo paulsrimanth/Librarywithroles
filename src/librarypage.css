@@ -1,0 +1,109 @@
+.body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  /*   gap: 10px; */
+  grid-auto-rows: minmax(100px, auto);
+}
+.navigation-bar {
+  grid-column: 1 / 13;
+  grid-row: 1 / 1;
+  border-style: inset;
+  background-color: #155e75;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: monospace;
+}
+.side-bar {
+  grid-column: 1/ 3;
+  grid-row: 2/10;
+  border-style: inset;
+  /* height: 84.5vh; */
+  background-color: #eab308;
+}
+.buttons {
+  display: grid;
+}
+.button-side {
+  background-color: #b91c1c; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-style: inset;
+  border-radius: 5px;
+}
+.book-card {
+  border: solid;
+  /* height: -webkit-fill-available; */
+  /* height: 200px; */
+  width: 100%;
+  height: 256px;
+  height: -22%;
+  /* height: -webkit-fill-available; */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.book-image {
+  width: 100%;
+  height: 73%;
+  object-fit: cover;
+}
+.content {
+  border: 1px;
+  font-size: smaller;
+}
+.books-display {
+  display: contents;
+  /* width: 14%; */
+  grid-column: 1 / 2;
+  /* grid-row: 1; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.outer-div {
+  grid-column: 3 / 13;
+  /* grid-column: 3 / 13; */
+  grid-row: 2 / 12;
+  display: grid;
+  /* border-style: inset; */
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 10px; */
+  /* grid-auto-rows: minmax(100px, auto); */
+  height: 76.5vh;
+  /* display: inline-flex; */
+  /* justify-content: space-around; */
+}
+.image-div {
+  /* border: 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  /* display: grid; */
+  /* border-style: dashed; */
+}
+
+.cards {
+  border: 1px;
+}
+.button-logout {
+  background-color: #16a34a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-style: inset;
+  border-radius: 5px;
+}

@@ -1,0 +1,111 @@
+.login-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://external-preview.redd.it/kZaav_VxxwEPRsKo56MAPOKpF2jIFGT6fD-oj-5SDzg.jpg?auto=webp&s=4e53910b05133107715fe8cf73e8cea0f6dae823");
+  /* background-color: #fb7185; */
+  background-size: cover;
+}
+.login-form {
+  border-radius: 21px;
+  border: #322b1e;
+  border-style: ridge;
+  width: 350px;
+  /* height: 350px; */
+  height: 383px;
+  /* background-color: #ffde59; */
+  color: black;
+  background-image: url("https://th.bing.com/th/id/OIP.dgcm3qOXCWoQRBB_m5htUAHaFV?rs=1&pid=ImgDetMain");
+}
+.input-fieldo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 51px;
+}
+.inputs {
+  margin: 5px;
+  width: 200px;
+  height: 25px;
+  margin-left: 20px;
+}
+.labels {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 26px;
+}
+.labels2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.captcha-div {
+  border: 1px;
+}
+.captcha-display {
+  border-style: groove;
+  width: 120px;
+  margin-left: 120px;
+  height: 40px;
+  text-align: center;
+  padding-top: 13px;
+}
+.contents-captcha {
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.captcha-label {
+  margin-right: 23px;
+}
+.input-captcha {
+  border: 1px solid;
+  height: 26px;
+  margin-left: 4px;
+  margin-right: 5px;
+}
+.btn-refresh {
+  margin-left: 1px;
+}
+.errors {
+  padding: 0px;
+  margin: 0px;
+  /* font-size: x-small; */
+  color: red;
+}
+/* Basic button styles */
+.login-btn {
+  margin-top: 17px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Default button styles */
+.login-btn {
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+/* Active effect */
+.login-btn:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}

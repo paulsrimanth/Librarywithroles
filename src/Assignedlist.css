@@ -1,0 +1,35 @@
+/* Add this CSS to your project */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  font-family: "Open Sans", sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* tr:hover {
+  background-color: #e6e6e6;
+} */
